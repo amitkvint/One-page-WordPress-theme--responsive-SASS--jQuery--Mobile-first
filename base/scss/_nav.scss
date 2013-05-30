@@ -1,0 +1,80 @@
+// ------------------------- MAIN NAV
+.main-nav {
+	width: 55%;
+	margin: 0 auto;
+	padding: 1em 0;
+	a {
+		color: black;
+		font-weight: lighter;
+		letter-spacing: 0.1em;
+		font-size: 1.2em;
+		text-align: center;
+		margin: $logoOffset*2 0;
+
+	}
+	a.recuperar {
+		font-size: 2em;
+		&:before {
+			content: "";
+			color: $red;
+			font-size: 1em;
+		}
+	}
+	a.jornadas {
+		font-size: 2.5em;
+	}
+	a.prep {
+		font-size: 2.5em;
+	}
+	a.adultos {
+		font-size: 2.5em;
+	}
+}
+
+.recuperar {
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		background: $red;	
+		.word1 {
+		color: $green;
+		font-weight: bold;
+		font-size: 1.6em;
+	}
+		.word10 {
+		color: $orange;
+		font-weight: bold;
+	}
+}
+.jornadas {
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		background: $orange;	
+		.word3 {
+		color: $red;
+		font-weight: bold;
+		font-size: 1.6em;
+
+	}
+}
+.prep {
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		background: $green;	
+		.word4 {
+		color: $blue;
+		font-size: 1.6em;
+}
+}
+.adultos {
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		background: $blue;	
+		.word4 {
+		color: $red;
+		font-size: 1.6em;
+	}
+}

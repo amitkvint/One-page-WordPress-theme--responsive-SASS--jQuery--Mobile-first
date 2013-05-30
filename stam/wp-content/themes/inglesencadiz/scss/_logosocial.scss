@@ -1,0 +1,78 @@
+/* ------------------------ Social Icons Typography Settings------------------------ */
+
+
+@font-face {
+	font-family: 'social-media';
+	src:url('../fonts/social-media.eot');
+	src:url('../fonts/social-media.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/social-media.svg#social-media') format('svg'),
+		url('../fonts/social-media.woff') format('woff'),
+		url('../fonts/social-media.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'social-media';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-social"]:before {
+*/
+.icon-socialpinterest:before, .icon-socialfacebook:before, .icon-socialmail:before, .icon-socialtwitter:before, .icon-socialphone:before, .icon-socialplay:before, .icon-socialbrightness-medium:before {
+	font-family: 'social-media';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-socialpinterest:before {
+	content: "\e000";
+}
+.icon-socialfacebook:before {
+	content: "\e002";
+}
+.icon-socialmail:before {
+	content: "\e003";
+}
+.icon-socialtwitter:before {
+	content: "\e004";
+}
+.icon-socialphone:before {
+	content: "\e001";
+}
+.icon-socialplay:before {
+	content: "\e005";
+}
+.icon-socialbrightness-medium:before {
+	content: "\e006";
+}
+.social {
+	text-align: center;
+		a, a:visited, p {
+			color: #000;
+			font-size: 1.5em;
+			@media (min-width: 900px) {
+			font-size: 2.5em;
+
+		}
+}
+}	
+.float-logo {
+			float: right;
+		 	display: inline-block;
+		  	background: url(../images/logo.png) no-repeat;
+		  	width: 200px;
+		  	height: 110px;
+		  	margin: 1.5*$logoOffset;
+ }

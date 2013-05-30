@@ -1,0 +1,59 @@
+// ------------------------- PAGE
+.page-wrap {
+	margin: 200px auto;
+	width: 100%;
+	position: relative;
+}
+// ------------------------- SECTIONS
+section {
+
+	width: 55%;
+	margin: 150px auto;
+	display: block;
+		h2 {
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		font-weight: bolder;
+		text-align: center;
+		
+		.char1 {
+			color: $red;
+		}
+		.char2 {
+			color: $orange;
+		}
+		.char3 {
+			color: $green;
+		}
+		.char4 {
+			color: $blue;
+		}
+		.char5 {
+			color: $red;
+		}
+		.char6 {
+			color: $orange;
+		}
+}
+
+}
+		#s1{
+				background: $red;
+
+		}
+		#s2{
+				background: $orange;
+
+		}
+		#s3{
+				background: $green;
+
+		}
+		#s4{
+				background: $blue;
+
+		}
+		p {
+			font-size: 2em;
+		}

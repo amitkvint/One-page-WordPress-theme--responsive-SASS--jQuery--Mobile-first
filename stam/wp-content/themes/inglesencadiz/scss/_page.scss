@@ -1,0 +1,169 @@
+// ------------------------- PAGE
+.page-wrap {
+	margin: 200px auto;
+	width: 100%;
+	position: relative;
+}
+// ------------------------- SECTIONS
+section {
+
+	width: 55%;
+	margin: 150px auto;
+	display: block;
+	position: relative;
+		h2 {
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		font-weight: bolder;
+		text-align: center;
+		
+		.char1 {
+			color: $red;
+		}
+		.char2 {
+			color: $orange;
+		}
+		.char3 {
+			color: $green;
+		}
+		.char4 {
+			color: $blue;
+		}
+		.char5 {
+			color: $red;
+		}
+		.char6 {
+			color: $orange;
+		}
+}
+		@media (min-width: 900px) {
+					width: 80%;
+
+		}
+
+}
+		.up {
+			&:after {
+				content: "⇪";
+				position: absolute;
+				font-size: 4em;
+			}
+		}
+		
+		#s1{
+				background: $red;
+
+		}
+		#s2{
+				background: $orange;
+
+		}
+		#s3{
+				background: $green;
+
+		}
+		#s4{
+				background: $blue;
+
+		}
+		#s5{
+				background: url('../images/bg-post.png');
+		}
+		p {
+			font-size: 1.5em;
+			font-weight: lighter;
+		}
+
+		.recuperar {
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		@include background(
+			linear-gradient(
+				white,
+				$red
+				)
+			);
+		.word1 {
+		color: $green;
+		font-weight: bold;
+		font-size: 1.6em;
+	}
+		.word10 {
+		color: $orange;
+		font-weight: bold;
+	}
+		font-size: 2em;
+		&:before {
+			content: "";
+			color: $red;
+			font-size: 1em;
+		}
+	}
+	.jornadas {
+		font-size: 2.5em;
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		@include background(
+			linear-gradient(
+				white,
+				$orange
+				)
+			);	
+		.word3 {
+		color: $red;
+		font-weight: bold;
+		font-size: 1.6em;
+
+	}
+	}
+	.prep {
+		font-size: 2.5em;
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		@include background(
+			linear-gradient(
+				white,
+				$green
+				)
+			);		.word4 {
+		color: $blue;
+		font-size: 1.6em;
+}
+	}
+.adultos {
+		font-size: 2.5em;
+		display: block;
+		clear: both;
+		line-height: 1.2em;
+		@include background(
+			linear-gradient(
+				white,
+				$blue
+				)
+			);		.word4 {
+		color: $red;
+		font-size: 1.6em;
+	}
+
+	}
+	hr.style-eight {
+	    padding: 0;
+	    border: none;
+	    border-top: medium double #333;
+	    color: $red;
+	    text-align: center;
+	    border-top-width: 1em;
+}
+	hr.style-eight:after {
+	    content: "☟";
+	    display: inline-block;
+	    position: relative; 
+	    top: -0.7em;  
+	    font-size: 3em;
+	    padding: 0 0.25em;
+	    background: white;
+}

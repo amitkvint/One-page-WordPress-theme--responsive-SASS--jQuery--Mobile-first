@@ -1,0 +1,36 @@
+@import "normalize";
+@import "bits";
+@import "royalslider";
+@import "royalslider_skin";
+@import "clear";
+@import "header";
+@import "page";
+@import "nav";
+
+
+
+// ------------------------- GENERIC
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: helvetica;
+	background: url('../images/bg.png');
+	background: white;
+
+}
+a {
+	text-decoration: none;
+}
+
+.logo {
+	background: url('../images/logo.jpg') no-repeat;
+	width: 500px;
+	height: 317px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
